@@ -1,0 +1,11 @@
+
+
+
+services:
+  backend:
+    profiles:
+      - all
+      - backend
+    build:
+      context: git@github.com:Sea-Rob/llm-council.git
+      dockerfile: backend/Dockerfile
